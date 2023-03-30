@@ -13,6 +13,7 @@ def index():
 def get_response():
     message = request.args.get("message")
     completion = openai.ChatCompletion.create(
+        # You can switch this to `gpt-4` if you have access to that model.
         model="gpt-3.5-turbo", 
         messages=[{"role": "user", "content": message}]
     )   
