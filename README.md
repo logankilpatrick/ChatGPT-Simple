@@ -8,7 +8,7 @@ To run the example code, you need to create an [OpenAI API key](https://platform
 
 1. Install requirments using
 ```bash
-$ pip install requirements.txt
+$ pip install -r requirements.txt
 ```
 2. Create a .env file and paste your API key there
 ```.env
